@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.good {
+    position: relative;
+
+}
+
+
+/* .broken {
+    display: none; 
+    position: absolute;
+    top: 80%;
+} */
+
+.fall {
+    position: absolute;
+    top: 0;
+    /* animation: fallAnimation 3s linear;  */
+}
+/* @keyframes fallAnimation {
+
+    0% {
+        top : 0; 
+    }
+
+    80% {
+        top: 80%;
+    }
+} */
+
+
+.basket {
+    position: absolute;
+    top: 80%; /* Start the basket below the container */
+    /* animation: basketFallAnimation 3s linear; */
+    left: 0;
+}
+
+.hidden {
+    display: none; 
+}
+
+</style>
+</head>
+<body>
+    
+<img src="/images/1182.png" class="good">
+<!-- <img src="/images/Uovo_sorridente.png" class="broken"> -->
+<img src="/images/basket.png" class="basket" tabindex="0">
+<!-- tabindex=0 makes basket element focusable when i press on it -->
+
+
+
+    <script src="/Task3/game.js"></script>
+</body>
+</html>
